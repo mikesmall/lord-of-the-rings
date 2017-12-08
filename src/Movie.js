@@ -4,8 +4,8 @@ class Movie extends Component {
   render () {
     return (
       <div>
-        <h1>Back to the Future Part IV: President Biff</h1>
-        <p>Runtime: 4h 37min</p>
+        <h1>Lord of the Rings: {this.props.title}</h1>
+        <p>Length: {this.props.hours} hours and {this.props.minutes} minutes</p>
       </div>
     )
   }
