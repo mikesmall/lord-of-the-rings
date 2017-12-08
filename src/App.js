@@ -14,9 +14,9 @@ class App extends Component {
         <p className="App-intro">
           Here are some movies:
         </p>
-        <Movie title ="The Fellowship of the Ring" hours="2" minutes="58"></Movie>
-        <Movie title="The Two Towers" hours="2" minutes="59"></Movie>
-        <Movie title="The Return of the King" hours="3" minutes="21"></Movie>
+        <Movie title ="The Force Awakens" episode="VII" hours="2" minutes="15"></Movie>
+        <Movie title="The Last Jedi" episode="VIII" hours="2" minutes="32"></Movie>
+        <Movie title="Jar Jar's Revenge" episode="IX" hours="3" minutes="14"></Movie>
       </div>
     );
   }
